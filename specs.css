@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+section#conteudo{
+  width: 1000px;
+  margin: auto;
+}
+
+.scroll-escondido {
+    display: block;
+    float: right;
+    width: 390px;  /*menos 5px (scroll width) do que a largura do iframe (Chrome)*/
+    height: 250px;
+    overflow: hidden;  /*importante para cortar o cumprimento do elemento*/
+    margin-right: 90px;
+}
+
+iframe#frame-spec{
+  width: 405px;
+  height: 300px;
+  border: none;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
