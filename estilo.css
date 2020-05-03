@@ -1,8 +1,5 @@
 @charset "utf-8";
-@font-face {
-   font-family: 'FonteLogo';
-   src: url("../_fonts/bubblegum-sans-regular.otf");
-}
+
 @font-face {
    font-family: 'FonteLogo';
    src: url("../_fonts/bubblegum-sans-regular.otf");
