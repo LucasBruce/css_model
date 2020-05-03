@@ -3,6 +3,10 @@
    font-family: 'FonteLogo';
    src: url("../_fonts/bubblegum-sans-regular.otf");
 }
+@font-face {
+   font-family: 'FonteLogo';
+   src: url("../_fonts/bubblegum-sans-regular.otf");
+}
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
 body{
